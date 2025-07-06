@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "973973377697",
+    "project_id": "kina-kata-824ba",
+    "storage_bucket": "kina-kata-824ba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973973377697:android:5f3166df05afcee88116e0",
+        "android_client_info": {
+          "package_name": "com.amranemon.kinakata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw9pokJyewoicvbGiK17Wq9-lg7Tz0fMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

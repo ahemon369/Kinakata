@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/yellow"
+    android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".auth.SplashFragment">
 
@@ -25,22 +25,11 @@
             android:orientation="horizontal"
             android:gravity="center">
 
-            <TextView
-                android:id="@+id/tvBlinkit"
-                android:layout_width="wrap_content"
-                android:layout_height="91dp"
-                android:text="Blink"
-                android:textColor="#000000"
-                android:textSize="78sp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="91dp"
-                android:text="it"
-                android:textColor="	#008000"
-                android:textSize="78sp"
-                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo"
+                />
 
         </LinearLayout>
 
@@ -61,7 +50,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blink Commerce Private Limited"
+            android:text="KinaKata E-Commerce Private Limited"
             android:letterSpacing="0.1"
             android:textSize="12sp"
             android:textColor="#000000"

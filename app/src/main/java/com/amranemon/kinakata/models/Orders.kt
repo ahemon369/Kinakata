@@ -1,10 +1,10 @@
 package com.amranemon.kinakata.models
 
-//import com.amranemon.kinakata.roomdb.CartProducts
+import com.amranemon.kinakata.roomdb.CartProducts
 
 data class Orders(
     val orderId : String? = null,
-    //val orderList : List<CartProducts>? = null,
+    val orderList : List<CartProducts>? = null,
     val userAddress : String ? = null,
     val orderStatus : Int ? =0,
     val orderDate : String ? = null,
